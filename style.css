@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(bg-repeat.jpg) repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    width: 50%;
+    height: 50%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo h1 {
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+.conteudo p {
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.container-formulario {
+    width: 30%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.container-formulario input,
+textarea {
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.container-formulario input.erro-borda,
+textarea.erro-borda {
+    border: 1px solid red;
+}
+.container-formulario input.ok-borda,
+textarea.ok-borda {
+    border: 1px solid #3CCC87;
+}
+
+
+#mensagem {
+    width: 90%;
+    height: 100px;
+    padding-top: 10px;
+    resize: none;
+  }
+
+.container-formulario label {
+    width: 80%;
+    font-size: 10px;
+    color: transparent;
+}
+.container-formulario label.msg-erro{
+    color: red;
+}
+
+.container-formulario p {
+    /* margin-top: 5px; */
+    width: 90%;
+    font-size: 17px;
+}
+
+.container-formulario button {
+    width: 90%;
+    background-color: #3CCC87;
+    border: none;
+    height: 41px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
