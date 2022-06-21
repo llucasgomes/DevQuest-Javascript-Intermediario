@@ -11,7 +11,7 @@
 
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Pagina](https://llucasgomes.github.io/Tela-Login-Star-Wars/)
+- [Pagina](https://llucasgomes.github.io/DevQuest-Javascript-Intermediario/)
 
 ## 🔖&nbsp; Sobre
 
