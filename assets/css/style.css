@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url(bg-repeat.jpg) repeat-x;
+    background: url(/assets/images/bg-repeat.jpg) repeat-x;
     background-size: contain;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ section {
 
 }
 
-.container-formulario input,
+.container-formulario .campo,
 textarea {
     width: 90%;
     height: 35px;
@@ -74,11 +74,11 @@ textarea {
     border-radius: 5px;
     padding-left: 10px;
 }
-.container-formulario input.erro-borda,
+.container-formulario .campo.erro-borda,
 textarea.erro-borda {
     border: 1px solid red;
 }
-.container-formulario input.ok-borda,
+.container-formulario .campo.ok-borda,
 textarea.ok-borda {
     border: 1px solid #3CCC87;
 }

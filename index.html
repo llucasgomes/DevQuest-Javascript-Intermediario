@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>QUEST HTML + CSS + JS INTERMEDIÁRIO</title>
 </head>
 
@@ -17,20 +17,20 @@
                 24h.</p>
         </section>
         <section class="container-formulario">
-            <input id="nome" type="text" placeholder="Nome Completo*">
+            <input id="nome" type="text" class="campo" placeholder="Nome Completo*">
             <label name="nome">*campo obrigatório</label>
-            <input id="email" type="email" placeholder="Email*">
+            <input id="email" class="campo" type="email" placeholder="Email*">
             <label  name="email">*campo obrigatório</label>
-            <input id="fone" type="text"placeholder="Telefone*">
+            <input id="fone" class="campo" type="text"placeholder="Telefone*">
             <label name="fone">*campo obrigatório</label>
-            <textarea id="mensagem" type="text" placeholder="Mensagem*"></textarea>
+            <textarea id="mensagem" class="campo" type="text" placeholder="Mensagem*"></textarea>
             <label name="mensagem">*campo obrigatório</label>
             <p>*campos obrigatórios</p>
-            <button class="btn-enviar">Enviar</button>
+            <button class="btn-enviar" onclick="validador()">Enviar</button>
         </section>
     </main>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="javascript.js"></script>
+<script src="assets/javascript/javascript.js"></script>
 </body>
 
 </html>
